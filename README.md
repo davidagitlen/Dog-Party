@@ -12,7 +12,7 @@ The basic directions were to reproduce two different comps, show below, and then
 
 After a lot of struggle, here's what my pages ended up looking like (I could not get a single image of the second one without it deforming rather unfortunately, so it is split into two screenshots): 
 
-![my first page](./images/MyDogParty1.pdf)
+![my first page](./images/MyDogParty1.jpg)
 
 ![my second page(1)](./images/MyDogParty2(1).png)
 ![my seond page(2)](./images/MyDogParty2(2).png) 
