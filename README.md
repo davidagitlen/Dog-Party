@@ -3,7 +3,7 @@
 
 This is an attempt at writing a simple, semantic HTML layout with accompanying stylesheets to produce two distinct web pages with the same content. 
 
-The basic directions were to reproduce two different comps, show below, and then to experiment with adding different features/functionality to them.
+The basic directions were to reproduce two different comps, shown below, and then to experiment with adding different features/functionality to them.
 
 ![comp one](./images/DogPartyComp1.jpg)
 

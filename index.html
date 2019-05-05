@@ -94,8 +94,8 @@
 		function changeName() {
 		var x = document.getElementById("inputfield").value;
 		return x;
-		document.getElementById("swap-text").innerHTML = x; 
+		document.getElementById("swap-text").nodeValue = x; 
 	}
-		document.getElementById("name-button").addEventListener("click", changeName());
+		document.getElementById("name-button").addEventListener("click", changeName);
 	</script>
 </html>
