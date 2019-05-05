@@ -1,0 +1,338 @@
+body {
+	background-color: #ffffff;
+	font-family: "Open Sans", sans-serif;
+	font-size: 17px;
+	font-weight: 450;
+	letter-spacing: .40px;
+	width: 75%;
+	position: absolute;
+	margin: 0px 160px 0px 160px;
+	border-style: solid;
+	border-width: 2px;
+	filter: saturate(80%);
+	filter: grayscale(25%);
+}
+
+main {
+	height: 1050px;
+}
+
+li {
+	display: inline-block;
+	margin: 0px 10px 0px 10px;
+}
+
+footer {
+	display: block;
+	color: #ffffff;
+	background-color:#048eaa;
+	height: 125px;
+	width: auto;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.nav {
+	top: 0;
+	background-color: #75e2e6;
+	border-bottom-style: solid;
+	border-color:#048eaa;
+	height: 75px;
+	position: relative;
+}
+
+.nav-image {
+	display: inline;
+	text-align: left;
+	position: relative;
+}
+
+.nav-text {
+	position: relative;
+	float: right;
+	margin-top: 15px;
+}
+
+.list {
+	list-style: none;
+	text-align: center;
+}
+
+.bold-text {
+	font-weight: 900;
+}
+
+.dog-logo {
+	margin-top: 10px;
+	margin-left: 10px;
+	height: 50px;
+	width: 50px;
+}
+
+.dog-image {
+	height: 175px;
+	width: 175px;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 5px;
+	border-color:#048eaa;
+}
+
+.input-label {
+	position: relative;
+	top: 15px;
+	right: 165px;
+}
+
+.input {
+	display: block;
+	height: 45px;
+	width: 375px;
+	border: none;
+	border-radius: 1.5px;
+	margin: auto;
+	margin-top: 25px;
+}
+
+.name-button {
+	display: block;
+	background-color: #75e2e6;	
+	height: 45px;
+	width: 375px;
+	font-size: 16px;
+	border-radius: 1.5px;
+	border: none;
+	margin: auto;
+	margin-top: 15px;
+}	
+
+.doge-text {
+	display: inline;
+	height: 1000px;
+	width: auto;
+}
+
+.text-block {
+	display: inline;
+	float: left;
+	height: 500px;
+	width: 29%;
+	margin-left: 7px;
+	padding: 10px 15px 0px 15px;
+	text-align: center;
+	white-space: pre-line;
+}
+
+.doge-para {
+	text-align: left;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+
+.bottom-button{
+	display: inline-block;
+	color: #ffffff;
+	font-size: 16px;
+	height: 50px;
+	width: 260px;
+	margin: 0px 40px 30px 50px;
+	background-color: #048eaa;
+	border: none;
+	border-radius: 2.5px;
+}
+
+.main-form {
+	display: block;
+	color: #ffffff;
+	height: 450px;
+	width: auto;
+	padding: 5px 0px;
+	text-align: center;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("./images/dog-party-assets/park.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.site-text {
+	font-size: 25px;
+}
+
+.foot-icon {
+	margin: 10px 5px 25px 5px;
+}
+
+@media screen and (max-width: 375px)  {
+
+	body {
+		width: 100%;
+		letter-spacing: normal;
+		margin: 0px;
+	}
+
+	main {
+		display: block;
+		height: 2100px;
+	}
+
+	li {
+		display: inline;
+		font-size: 12px;
+		margin: 0px 6px 0px 4px;
+	}
+
+	footer {
+		display: block;
+		color: #ffffff;
+		background-color:#048eaa;
+		height: 65px;
+		width: auto;
+		padding: 50px;
+		text-align: center;
+		position: relative;
+		bottom: 175px;
+	}
+
+	.nav {
+		height: 75px;
+		background-color: #75e2e6;
+		border-bottom-style: solid;
+		border-color:#048eaa;
+		position: relative;
+		top: 0;
+	}
+
+	.nav-image {
+		display: inline;
+		position: relative;
+		text-align: left;
+	}
+
+	.nav-text {
+		position: relative;
+		float: right;
+		margin-top: 15px;
+	}
+
+	.list {
+		list-style: none;
+		text-align: center;
+	}
+
+	.bold-text {
+		font-weight: 900;
+	}
+
+	.dog-logo {
+		height: 50px;
+		width: 50px;
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+
+	.dog-image {
+		display: block;
+		height: 150px;
+		width: 150px;
+		border-radius: 50%;
+		border-style: solid;
+		border-width: 3px;
+		border-color:#048eaa;
+		margin: auto;
+		margin-bottom: -15px;
+	}
+
+	.input-label {
+		position: relative;
+		top: 15px;
+		right: 115px;
+	}
+
+	.input {
+		display: block;
+		height: 35px;
+		width: 275px;
+		border: none;
+		border-radius: 1.5px;
+		margin: auto;
+		margin-top: 25px;
+	}
+
+	.name-button {
+		display: block;
+		background-color: #75e2e6;	
+		font-size: 16px;
+		height: 35px;
+		width: 275px;
+		border-radius: 1.5px;
+		border: none;
+		margin: auto;
+		margin-top: 15px;
+	}	
+
+	.doge-text {
+		display: block;
+		height: auto;
+		width: auto;
+	}
+
+	.text-block {
+		display: block;
+		float: none;
+		width: 100%;
+		height: 520px;
+		margin: auto; 
+		padding: none;
+		text-align: center;
+	}
+
+	.doge-para {
+		margin: auto;
+		margin-left: 55px;
+		text-align: left;
+	}
+
+	.bottom-button{
+		display: block;
+		color: #ffffff;
+		font-size: 16px;
+		background-color: #048eaa;
+		height: 40px;
+		width: 225px;
+		border: none;
+		border-radius: 2.5px;
+		margin: auto;
+		position: relative;
+	}
+
+	.bottom-button-1{
+		bottom: 1175px;
+	}
+
+	.bottom-button-2{
+		bottom: 680px;
+	}
+
+	.bottom-button-3{
+		bottom: 225px;
+	}
+
+	.main-form {
+		display: block;
+		color: #ffffff;
+		height: 400px;
+		width: auto;
+		background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("./images/dog-party-assets/park.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		padding: none;
+		text-align: center;
+	}
+
+	.site-text {
+		font-size: 25px;
+	}
+
+	.foot-icon {
+		margin: auto;
+	}
+}
