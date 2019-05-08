@@ -25,8 +25,8 @@
 				<p class="site-text">A Site About <span class="bold-text" id="swap-text">Some Dogs</span></p>
 				<img src="./images/dog-party-assets/dog1-sq.jpg" class="dog-image main-dog-image" alt="A big-eared dog!">
 				<form class="input-form" name="input-form">
-					<Label for="inputfield" class="input-label">Name</Label><input type="text" class="input" id="inputfield">
-					<input type="submit" value="Name This Dog"  class="name-button" id="name-button">
+					<Label for="inputfield" class="input-label">Name</Label><input type="text" class="input" id="input-field">
+					<button type="button" class="name-button" id="name-button">Name This Dog</button>
 				</form>
 			</section>
 			<section class="doge-text">
@@ -91,11 +91,13 @@
 		</footer>
 	</body>
 	<script>
-		function changeName() {
-		var x = document.getElementById("inputfield").value;
-		return x;
-		document.getElementById("swap-text").nodeValue = x; 
-	}
-		document.getElementById("name-button").addEventListener("click", changeName);
+		var inputField = document.querySelector("#input-field");
+		var nameButton = document.querySelector("#name-button");
+		var swapText = document.querySelector("#swap-text");
+
+		nameButton.addEventListener("click", function (){
+			var newName = inputField.value;
+			swapText.innerText = newName;
+		});
 	</script>
 </html>
